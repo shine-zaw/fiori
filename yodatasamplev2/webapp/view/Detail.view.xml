@@ -1,0 +1,24 @@
+<mvc:View controllerName="yodatasamplev2.controller.Detail" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Page id="detail" title="{i18n>DetailTitle}" showNavButton="true" navButtonPress="handleNavButtonPress" >
+		<HBox>
+            <VBox>
+                <Text text="Name" />
+                <Text text="Price" />
+                <Text text="Rating" />
+                <Text text="Release Date" />
+            </VBox>
+            <VBox>
+                <Text text=" : " />
+                <Text text=" : " />
+                <Text text=" : " />
+                <Text text=" : " />
+            </VBox>
+            <VBox>
+                <Text text="{Name}" />
+                <Text text="{Price}" />
+                <Text text="{Rating}" />
+                <Text text="{ReleaseDate}" />
+            </VBox>
+		</HBox>
+	</Page>
+</mvc:View>

@@ -1,0 +1,7 @@
+<mvc:View controllerName="yodatasamplev2.controller.List" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Page id="listPage" title="{i18n>ListTitle}" >
+        <List id="list" items="{/Products}">
+            <StandardListItem type="Navigation" press="handleListItemPress" title="{Name}"/>
+        </List>
+    </Page>
+</mvc:View>
